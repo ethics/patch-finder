@@ -1,4 +1,4 @@
-dicttoxml==1.7.4
-PyGithub==1.43
+dicttoxml==1.7.16
+PyGithub==2.3.0
 Scrapy
-attrs>=17.4
+attrs>=23.2.0
