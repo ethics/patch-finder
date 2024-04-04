@@ -131,7 +131,7 @@ class DebianParser:
                 for member in tar.getmembers():
                     if (
                             member.name.startswith("debian/patches")
-                            and member.name.find(self.vuln_id) is not -1
+                            and member.name.find(self.vuln_id) != -1
                     ):
                         logger.info(
                             "Found patch: %s in %s", member.name, pkg_source
